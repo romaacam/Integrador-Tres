@@ -13,6 +13,7 @@ import Alta from './componentes/Alta';
 import Contacto from './componentes/Contacto';
 import Nosotros from './componentes/Nosotros';
 import Login from './componentes/Login';
+import Footer from './componentes/Footer';
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-    
+      <Footer />
     </>
 
 
